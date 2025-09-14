@@ -37,3 +37,9 @@ input[type="range"]{
     height: 50px;
     cursor: pointer;
 }
+@media( max-width: 768px){
+    img{
+
+        display: none;
+    }
+}
