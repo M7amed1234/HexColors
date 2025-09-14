@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HexColors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+<div id="mother">
+       <center>
+    <img src="images/file_00000000fec061f6968c31014c37970a.png" width="399px">
+    <br><br>
+    <div id="dd"></div>
+       </center>
+    
+</div>
+<br><br>
+
+
+
+<div id="container">
+    <table>
+        <tr>
+            <th>[ RED ]</th>
+            <th>[ Green ]</th>
+            <th>[ Blue ]</th>
+        </tr>
+        <tr>
+            <td><input type="range" min="0" max="255" value="255" id="r" onchange="changeRange()"></td>
+             <td><input type="range" min="0" max="255" value="255" id="g" onchange="changeRange()"></td>
+              <td><input type="range" min="0" max="255" value="255" id="b" onchange="changeRange()"></td>
+        </tr>
+         <tr>
+            <td id="r-label">255</td>
+            <td id="g-label">255</td>
+            <td id="b-label">255</td>
+         </tr>
+    </table>
+    <h2 id="hex-label">#ffffff</h2>
+    <br>
+    <p>BY MAHAMED</p>
+</div>
+
+</body> 
+</html>
